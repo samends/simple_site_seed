@@ -1,0 +1,29 @@
+{
+  "name": "simpleseed",
+  "version": "1.0.0",
+  "description": "Simple seed for fast developing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --watch --ignore src/styles --out-dir dist --copy-files && babel src -d dist",
+    "start": "node server/main.js",
+    "build-css": "node-sass --include-path scss src/styles/main.scss dist/styles/main.css",
+    "watch-css": "nodemon -e scss -x \"yarn build-css\""
+  },
+  "keywords": [
+    "seed",
+    "site"
+  ],
+  "author": "Sam Menza",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "babel-preset-latest": "^6.24.1",
+    "bootstrap": "^3.3.7",
+    "express": "^4.15.3",
+    "http-server": "^0.10.0",
+    "node-sass": "^4.5.3",
+    "nodemon": "^1.11.0"
+  }
+}

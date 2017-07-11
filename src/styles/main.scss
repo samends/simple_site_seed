@@ -1,0 +1,14 @@
+$light-gray: #8e8e8e;
+
+.seed-container {
+    display: flex;
+    flex-direction: column;
+    .title {
+
+    }
+    .description {
+        color: $light-gray;
+    }
+}
+
+
