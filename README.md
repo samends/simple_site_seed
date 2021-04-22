@@ -9,8 +9,7 @@ Upon cloning the application will have the following ready to go:
 * Babel ES6 Complier
 * Sass to Css Complier
 * Bootstrap
-* Basic node/express server
-* Yarn
+* Basic express server
 * Basic project structure
 
 That's it!
