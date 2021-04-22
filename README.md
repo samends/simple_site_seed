@@ -10,7 +10,7 @@ Upon cloning the application will have the following ready to go:
 * Sass to Css Complier
 * Bootstrap
 * Basic node/express server
-* Yarn and nvm
+* Yarn
 * Basic project structure
 
 That's it!
